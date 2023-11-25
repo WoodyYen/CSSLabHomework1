@@ -1,0 +1,74 @@
+body.custom-body {
+    color: #fff; /* 白色文字 */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.title-section {
+    background-color: #2980b9; /* 標題區塊背景色 */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #3498db; /* 標題區塊底部邊框 */
+}
+
+.title-section h1,
+.title-section h2 {
+    color: #fff; /* 標題文字顏色 */
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    width: 20%;
+    background-color: #2c3e50; /* 導航條背景色 */
+    padding: 15px;
+    margin: 0;
+    transition: background-color 0.3s; /* 平滑的背景色過渡效果 */
+}
+
+.navbar li:hover {
+    background-color: #34495e; /* 滑鼠懸停時的背景色 */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    background-color: #2c3e50; /* 下拉菜單背景色 */
+    list-style-type: none;
+    padding: 0;
+    display: none;
+}
+
+.dropdown:hover ul {
+    display: block;
+}
+
+.dropdown ul li {
+    padding: 10px;
+    width: 200%;
+}
+
+
+.content-section {
+    color: #000; /* 內容文字顏色 */
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+    background-color: #fff; /* 背景色改為白色 */
+}
+
+.content-section p {
+    font-size: 25px; 
+}
